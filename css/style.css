@@ -1,19 +1,6 @@
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-
-html {
-	scroll-behavior: smooth;
-}
-
 body {
-	font-family: "lato", sans-serif;
+  display: -ms-grid;
+  display: grid;
+  padding: 20px;
 }
-
-.wrapper {
-	margin: 0 auto;
-	width: 100%;
-	max-width: 1200px;
-}
+/*# sourceMappingURL=style.css.map */
