@@ -1,6 +1,13 @@
-body {
-  display: -ms-grid;
-  display: grid;
-  padding: 20px;
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  background-color: red;
+  font-size: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
