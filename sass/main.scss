@@ -17,6 +17,7 @@ body {
 
 nav {
 	text-transform: uppercase;
+	z-index: 2;
 	.nav-link,
 	a,
 	i {
@@ -51,14 +52,14 @@ nav {
 		background-size: cover;
 		background-position: center;
 		color: #fff;
-		z-index: -1;
+		z-index: 0;
 	}
 	.hero-shadow {
 		position: absolute;
 		width: 100%;
 		height: 100%;
 		background-color: rgba(0, 0, 0, 0.7);
-		z-index: -2;
+		z-index: -1;
 	}
 
 	.hero-txt {
@@ -79,6 +80,18 @@ nav {
 			text-transform: uppercase;
 		}
 	}
+	.icon-about-us {
+		position: absolute;
+		bottom: 20px;
+		font-size: 30px;
+		left: 50%;
+		transform: translate((-50%));
+	}
+}
+
+
+.btn-outline-light {
+	z-index: 2;
 }
 
 .blue-text {
