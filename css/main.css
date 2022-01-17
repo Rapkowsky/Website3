@@ -1,0 +1,106 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  font-family: "Lato", sans-serif;
+  background-color: #444;
+}
+
+nav {
+  text-transform: uppercase;
+}
+
+nav .nav-link,
+nav a,
+nav i {
+  color: #fff;
+}
+
+nav .nav-link:hover {
+  color: #3c98cc;
+}
+
+nav .navbar-brand {
+  font-weight: bold;
+}
+
+nav .navbar-brand span {
+  color: #3c98cc;
+}
+
+nav .navbar-brand:hover {
+  color: #3c98cc;
+}
+
+nav .active {
+  color: #3c98cc;
+}
+
+nav .reorder-three-sharp {
+  padding: 10px;
+}
+
+.header .hero-img {
+  position: relative;
+  height: 100vh;
+  background-image: url(../img/header-mobile.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  z-index: -1;
+}
+
+.header .hero-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -2;
+}
+
+.header .hero-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  padding: 5px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 1;
+}
+
+.header .hero-txt h1 {
+  font-size: 26px;
+  margin-bottom: 5px;
+  text-shadow: 3px 3px 5px #000;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.blue-text {
+  color: #3c98cc;
+}
+
+@media (min-width: 1200px) {
+  .header .hero-img {
+    background-image: url(../img/header.jpg);
+  }
+}
+/*# sourceMappingURL=main.css.map */
