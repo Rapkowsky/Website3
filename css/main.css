@@ -13,6 +13,30 @@ body {
   background-color: #444;
 }
 
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  margin: 0 auto 40px;
+  width: 60px;
+  height: 4px;
+  background-color: #3c98cc;
+}
+
+.blue-text {
+  color: #3c98cc;
+}
+
+.shadow-bg {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.btn-outline-light {
+  z-index: 2;
+}
+
 nav {
   -webkit-transition: background-color 0.6s;
   transition: background-color 0.6s;
@@ -117,16 +141,18 @@ nav .navbar-toggler {
           transform: translate(-50%);
 }
 
-.btn-outline-light {
-  z-index: 2;
+.about-us .icons {
+  font-size: 30px;
+  margin-top: 20px;
 }
 
-.blue-text {
-  color: #3c98cc;
+.about-us .about-us-card-title {
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
-.shadow-bg {
-  background-color: rgba(0, 0, 0, 0.7);
+.about-us .about-us-card-text {
+  font-size: 14px;
 }
 
 @media (min-width: 375px) {
