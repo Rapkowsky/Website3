@@ -48,6 +48,14 @@ nav .reorder-three-sharp {
   padding: 10px;
 }
 
+nav .navbar-toggler {
+  color: #fff;
+}
+
+.header {
+  color: #fff;
+}
+
 .header .hero-img {
   position: relative;
   height: 100vh;
@@ -55,7 +63,6 @@ nav .reorder-three-sharp {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  color: #fff;
   z-index: 0;
 }
 
@@ -88,11 +95,15 @@ nav .reorder-three-sharp {
 }
 
 .header .hero-txt h1 {
-  font-size: 26px;
+  font-size: 25px;
   margin-bottom: 5px;
   text-shadow: 3px 3px 5px #000;
   color: #fff;
   text-transform: uppercase;
+}
+
+.header .hero-txt p {
+  font-size: 14px;
 }
 
 .header .icon-about-us {
@@ -110,6 +121,24 @@ nav .reorder-three-sharp {
 
 .blue-text {
   color: #3c98cc;
+}
+
+@media (min-width: 375px) {
+  .header .hero-txt h1 {
+    font-size: 30px;
+  }
+  .header .hero-txt p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header .hero-txt h1 {
+    font-size: 42px;
+  }
+  .header .hero-txt p {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 1200px) {
