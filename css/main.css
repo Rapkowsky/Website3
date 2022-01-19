@@ -7,6 +7,10 @@
   padding: 0;
 }
 
+html {
+  scroll-padding-top: 72px;
+}
+
 body {
   position: relative;
   font-family: "Lato", sans-serif;
@@ -153,6 +157,15 @@ nav .navbar-toggler {
 
 .about-us .about-us-card-text {
   font-size: 14px;
+}
+
+.about-us .about-us-hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.about-us .about-us-hover:hover {
+  color: #3c98cc;
 }
 
 @media (min-width: 375px) {

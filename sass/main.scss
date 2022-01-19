@@ -7,6 +7,10 @@
 	padding: 0;
 }
 
+html{
+	scroll-padding-top: 72px;
+}
+
 body {
 	position: relative;
 	font-family: "Lato", sans-serif;
@@ -132,6 +136,13 @@ nav {
 	}
 	.about-us-card-text {
 		font-size: 14px;
+	}
+	.about-us-hover {
+		transition: 0.3s;
+	}
+
+	.about-us-hover:hover {
+		color: $main-color;
 	}
 }
 
