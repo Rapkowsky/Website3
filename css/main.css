@@ -179,7 +179,7 @@ nav .navbar-toggler {
 }
 
 .about-us-hero .icons {
-  font-size: 30px;
+  font-size: 50px;
   margin-top: 20px;
 }
 
@@ -190,6 +190,14 @@ nav .navbar-toggler {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   z-index: -1;
+}
+
+.about-us-hero-item {
+  margin: 10px 0;
+}
+
+.about-us-hero-item .about-us-hero-title {
+  font-size: 24px;
 }
 
 @media (min-width: 375px) {
@@ -207,6 +215,12 @@ nav .navbar-toggler {
   }
   .header .hero-txt p {
     font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .about-us-hero {
+    background-image: url(../img/middle-desktop.jpg);
   }
 }
 
