@@ -168,6 +168,30 @@ nav .navbar-toggler {
   color: #3c98cc;
 }
 
+.about-us-hero {
+  position: relative;
+  background-image: url(../img/middle-mobile.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: #ddd;
+  z-index: 0;
+}
+
+.about-us-hero .icons {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.about-us-hero .about-us-hero-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+
 @media (min-width: 375px) {
   .header .hero-txt h1 {
     font-size: 30px;

@@ -7,7 +7,7 @@
 	padding: 0;
 }
 
-html{
+html {
 	scroll-padding-top: 72px;
 }
 
@@ -74,7 +74,7 @@ nav {
 		color: $white-color;
 	}
 }
-
+// HEADER
 .header {
 	color: $white-color;
 
@@ -125,6 +125,8 @@ nav {
 	}
 }
 
+// ABOUT-US
+
 .about-us {
 	.icons {
 		font-size: 30px;
@@ -143,6 +145,31 @@ nav {
 
 	.about-us-hover:hover {
 		color: $main-color;
+	}
+}
+
+// ABOUT-US-HERO
+.about-us-hero {
+	position: relative;
+	background-image: url(../img/middle-mobile.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	color: $bg-txt;
+	z-index: 0;
+
+	.icons {
+		font-size: 30px;
+		margin-top: 20px;
+	}
+	
+	.about-us-hero-shadow {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.7);
+		z-index: -1;
 	}
 }
 
