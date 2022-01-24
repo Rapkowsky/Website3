@@ -173,6 +173,26 @@ nav {
 	}
 }
 
+// PORTFOLIO
+.portfolio {
+	.carousel-item {
+		position: relative;
+		max-height: 600px;
+	}
+	.carousel-caption {
+		position: absolute;
+		right: 0;
+		left: 0;
+		padding: 20px 0;
+		background-color: rgba(0, 0, 0, 0.7);
+	}
+	.carousel-indicators {
+		padding-bottom: 20px;
+	}
+}
+
+// MEDIA
+
 .about-us-hero-item {
 	margin: 10px 0;
 	.about-us-hero-title {
