@@ -239,6 +239,9 @@ nav .navbar-toggler {
   .about-us-hero {
     background-image: url(../img/middle-desktop.jpg);
   }
+  .nav {
+    height: 72px;
+  }
 }
 
 @media (min-width: 1200px) {
