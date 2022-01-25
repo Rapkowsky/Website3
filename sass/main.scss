@@ -191,6 +191,44 @@ nav {
 	}
 }
 
+.prices {
+	.price-box {
+		padding: 30px;
+		background-color: $white-color;
+		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+		margin: 20px 10px;
+		transition: transform 0.3s;
+		h3 {
+			color: $main-color;
+			text-transform: uppercase;
+		}
+		span {
+			font-weight: bold;
+		}
+		.icons {
+			font-size: 24px;
+			padding: 0 2px;
+		}
+		button {
+			padding: 10px 20px;
+			text-transform: uppercase;
+		}
+		price-tag {
+			font-size: 30px;
+			font-weight: bold;
+		}
+	}
+	.price-box:hover {
+		transform: scale(1.05);
+	}
+
+	.price-info {
+		a {
+			text-decoration: none;
+		}
+	}
+}
+
 // MEDIA
 
 .about-us-hero-item {
@@ -232,6 +270,11 @@ nav {
 	}
 	.nav {
 		height: 72px;
+	}
+	.prices{
+		.price-info {
+			font-size: 18px;
+		}
 	}
 }
 

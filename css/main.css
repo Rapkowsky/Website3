@@ -209,6 +209,51 @@ nav .navbar-toggler {
   padding-bottom: 20px;
 }
 
+.prices .price-box {
+  padding: 30px;
+  background-color: #fff;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  margin: 20px 10px;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.prices .price-box h3 {
+  color: #3c98cc;
+  text-transform: uppercase;
+}
+
+.prices .price-box span {
+  font-weight: bold;
+}
+
+.prices .price-box .icons {
+  font-size: 24px;
+  padding: 0 2px;
+}
+
+.prices .price-box button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.prices .price-box price-tag {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.prices .price-box:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.prices .price-info a {
+  text-decoration: none;
+}
+
 .about-us-hero-item {
   margin: 10px 0;
 }
@@ -241,6 +286,9 @@ nav .navbar-toggler {
   }
   .nav {
     height: 72px;
+  }
+  .prices .price-info {
+    font-size: 18px;
   }
 }
 
