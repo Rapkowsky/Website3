@@ -41,7 +41,7 @@ h2 {
 	z-index: 2;
 }
 
-// NAVIGATION
+// ============ NAVIGATION ============
 
 nav {
 	transition: background-color 0.6s;
@@ -74,7 +74,7 @@ nav {
 		color: $white-color;
 	}
 }
-// HEADER
+// ============ HEADER ============
 .header {
 	color: $white-color;
 
@@ -125,10 +125,10 @@ nav {
 	}
 }
 
-// ABOUT-US
+// ============ ABOUT-US ============
 
 .about-us {
-	.icons {
+	ion-icon {
 		font-size: 30px;
 		margin-top: 20px;
 	}
@@ -148,7 +148,7 @@ nav {
 	}
 }
 
-// ABOUT-US-HERO
+// ============ ABOUT-US-HERO ============
 .about-us-hero {
 	position: relative;
 	background-image: url(../img/middle-mobile.jpg);
@@ -158,7 +158,7 @@ nav {
 	color: $bg-txt;
 	z-index: 0;
 
-	.icons {
+	ion-icon {
 		font-size: 50px;
 		margin-top: 20px;
 	}
@@ -173,7 +173,7 @@ nav {
 	}
 }
 
-// PORTFOLIO
+// ============ PORTFOLIO ============
 .portfolio {
 	.carousel-item {
 		position: relative;
@@ -205,7 +205,7 @@ nav {
 		span {
 			font-weight: bold;
 		}
-		.icons {
+		ion-icon {
 			font-size: 24px;
 			padding: 0 2px;
 		}
@@ -235,6 +235,56 @@ nav {
 		font-size: 24px;
 	}
 }
+
+.team {
+	position: relative;
+	background-image: url(../img/city-bg.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	z-index: 0;
+
+	h2 {
+		color: $bg-txt;
+	}
+
+	.team-shadow {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: -5;
+	}
+
+	.card {
+		transition: transform 0.3s;
+		img {
+			height: 200px;
+			object-fit: cover;
+		}
+
+		ion-icon {
+			font-size: 20px;
+			padding: 10px;
+			text-decoration: none;
+			transition: 0.3s;
+		}
+	}
+	.card:hover {
+		transform: scale(0.96);
+	}
+	.card-title {
+		margin-bottom: 20px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.card-text {
+		text-align: center;
+	}
+}
+
+// ============ MEDIA ============
 
 @media (min-width: 375px) {
 	.header {
