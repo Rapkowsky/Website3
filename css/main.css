@@ -320,6 +320,25 @@ nav .navbar-toggler {
   text-align: center;
 }
 
+.achievement ion-icon {
+  padding: 10px;
+  font-size: 50px;
+  color: #3c98cc;
+}
+
+.achievement .achievements-list {
+  padding: 20px 0;
+}
+
+.achievement .achievement-number {
+  font-size: 22px;
+}
+
+.achievement .achievement-text {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
 @media (min-width: 375px) {
   .header .hero-txt h1 {
     font-size: 30px;

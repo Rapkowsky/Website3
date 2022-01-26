@@ -283,6 +283,25 @@ nav {
 		text-align: center;
 	}
 }
+// ============ ACHIEVEMENTS ============
+
+.achievement {
+	ion-icon {
+		padding: 10px;
+		font-size: 50px;
+		color: $main-color;
+	}
+	.achievements-list {
+		padding: 20px 0;
+	}
+	.achievement-number {
+		font-size: 22px;
+	}
+	.achievement-text {
+		font-size: 13px;
+		text-transform: uppercase;
+	}
+}
 
 // ============ MEDIA ============
 
