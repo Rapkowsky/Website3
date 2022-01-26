@@ -194,7 +194,7 @@ nav .navbar-toggler {
 .header .hero-img {
   position: relative;
   height: 100vh;
-  background-image: url(../img/header-mobile.jpg);
+  background-image: url("../img/header-mobile.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -270,7 +270,7 @@ nav .navbar-toggler {
 
 .about-us-hero {
   position: relative;
-  background-image: url(../img/middle-mobile.jpg);
+  background-image: url("../img/middle-mobile.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -364,7 +364,7 @@ nav .navbar-toggler {
 
 .team {
   position: relative;
-  background-image: url(../img/city-bg.jpg);
+  background-image: url("../img/city-bg.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -521,7 +521,7 @@ nav .navbar-toggler {
 
 @media (min-width: 992px) {
   .about-us-hero {
-    background-image: url(../img/middle-desktop.jpg);
+    background-image: url("../img/middle-desktop.jpg");
   }
   .nav {
     height: 72px;
@@ -533,7 +533,7 @@ nav .navbar-toggler {
 
 @media (min-width: 1200px) {
   .header .hero-img {
-    background-image: url(../img/header.jpg);
+    background-image: url("../img/header.jpg");
   }
 }
 /*# sourceMappingURL=main.css.map */
